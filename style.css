@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+body {
+ background-color: rgb(255, 255, 255);
+}
+header {
+  padding: 46px 0;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #1f1534;
+}
+nav ul li a:hover {
+  font-weight: 900;
+}
+
+.hero {
+  padding: 90px 0;
+  display: flex;
+  align-items: center;
+  gap: 131px;
+  justify-content: space-between;
+}
+
+.hero-text {
+  width: 415px;
+}
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.hero-text p{
+    color:  #7D7987;
+    font-size: 19px;
+    margin: 26px 0 36px 0;
+}
+.btn{
+    color: #458FF6;
+    font-size: 18px;
+    padding: 17px 51px;
+    border: 1.4px solid #458FF6;
+    background-color: white;
+    border-radius: 55px;
+}
+.btn:hover{
+    background-color: #458FF6;
+    color: white;
+}
+
+
+.services{
+    padding: 20px 0;
+}
+.services h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.p{
+        width: 852px;
+        text-align: center;
+        color: #7D7987;
+        margin: 10px auto;
+}
+
+.card{
+    width: 380px;
+    height: 380px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    padding: 68px 38px;
+    text-align: left;
+}
+.card p{
+    width: 90%;
+    text-align: left;
+    margin: 30px 0 0 0;
+}
+.card h3{
+    margin-top: 30px;
+}
+.card:hover{
+    background-color: #458FF6;
+    color: white;
+}
+
+.ota{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  justify-content: center;
+}
+.hero2 h1{
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    margin: 76px;
+}
+.hero2 p{
+    width: 852px;
+    text-align: center;
+    color: #7D7987;
+    margin: 10px auto 60px auto;
+    width: 432px;   
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0%;
+padding-top: 63px;
+}
+.hero2 h2{
+font-weight: 700;
+font-size: 36px;
+line-height: 56px;
+letter-spacing: 0%;
+color: #000;
+}
+.hero2 .u{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 152px;
+}
+.card2{
+    width: 380px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+height: 516px;
+}
+.card2 h3{
+    margin: 18px;
+font-weight: 700;
+font-size: 21px;
+line-height: 32px;
+letter-spacing: 0%;
+color: #000;
+}
+.card2 p{
+    margin: 18px;
+    font-family: Mulish;
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0%;
+color: #7D7987;
+}
+.card2 h4{
+    margin: 18px;
+    font-family: Mulish;
+font-weight: 600;
+font-size: 17px;
+line-height: 28px;
+letter-spacing: 0%;
+color: #4089ED;
+}
+.card2  i{
+font-size: 15px;
+color: #4089ED;
+}
+.g{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.hero3 h2{
+  font-family: Mulish;
+font-weight: 700;
+font-size: 36px;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+margin: 100px;
+}
+.ota2{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  justify-content: center;
+  margin-bottom: 43px;
+}
+.btn2{
+    color: #458FF6;
+    font-size: 18px;
+    padding: 17px 51px;
+    border: 1.4px solid #458FF6;
+    background-color: white;
+    border-radius: 55px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 230px;
+
+}
+.btn2:hover{
+    background-color: #458FF6;
+    color: white;
+}
+
+footer{
+background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    padding: 60px 0;
+    color: white;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 159px;
+    padding-bottom: 131px;
+}
+footer h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    width: 500px;
+}
+.text p{
+  font-family: Mulish;
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0%;
+width: 335px;
+height: 84px;
+margin-top: 20px;
+}
+
+.card3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card3 p{
+  font-family: Mulish;
+font-weight: 300;
+font-style: Light;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.card3 h4{
+  font-family: Mulish;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1286px) {
+
+  .container {
+    max-width: 95%;
+  }
+
+  .hero {
+    gap: 60px;
+  }
+
+  .hero img {
+    width: 50%;
+  }
+
+  .hero-text {
+    width: 50%;
+  }
+
+  .card {
+    width: 340px;
+    height: auto;
+    padding: 50px 30px;
+  }
+
+  .services .p {
+    width: 90%;
+  }
+
+  .hero2 .u {
+    gap: 50px;
+  }
+
+  .hero2 img {
+    width: 50%;
+  }
+
+  .hero2 p {
+    width: 380px;
+  }
+
+  .card2 {
+    width: 350px;
+    height: auto;
+  }
+
+  footer .container {
+    gap: 60px;
+  }
+
+}
+
+
+
+
+
+
+
+@media (max-width: 983px) {
+
+  .container {
+    max-width: 90%;
+  }
+
+  header .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .services .p {
+    width: 100%;
+  }
+
+  .ota {
+    justify-content: center;
+  }
+
+  .hero2 .u {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .hero2 p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .ota2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+}
+@media (max-width: 600px) {
+
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero img,
+  .hero2 img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+  }
+
+  .card2 {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+  }
+
+  footer .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .text p {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
